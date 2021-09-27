@@ -56,7 +56,7 @@ console.log(multipleArrays);
 //8
 var actors = ["Sherlock", "Watson", "Bo"];
 
-console.log(actors[0] + " - " + actors[1] + " - " + actors[2]);
+console.log(actors.join(" - "));
 //9
 var amount = Math.random(0, 100);
 if (amount < 50) {
@@ -75,4 +75,3 @@ for (let i = 0; i < 8; i++) {
     hashtag += "#";
     console.log(hashtag);
 }
-//
